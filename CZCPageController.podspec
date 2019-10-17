@@ -10,14 +10,19 @@ s.ios.deployment_target = '8.0'
 
 s.subspec 'CZCPageController' do |ss|
     ss.source_files = 'CZCPageController/CZCPageController/*.{h,m}'
+    ss.dependency 'CZCPageController/Views'
+    ss.dependency 'CZCPageController/CZCProtocols'
+    ss.dependency 'CZCPageController/CZCSegBar'
 end
 s.subspec 'CZCProtocols' do |ss|
     ss.source_files = 'CZCPageController/CZCProtocols/*.h'
 end
 s.subspec 'CZCSegBar' do |ss|
     ss.source_files = 'CZCPageController/CZCSegBar/*.{h,m}'
+    ss.dependency 'CZCPageController/Views'
 end
 s.subspec 'Views' do |ss|
     ss.source_files = 'CZCPageController/Views/*.{h,m}'
+    ss.dependency 'CZCPageController/CZCProtocols'
 end
 end
