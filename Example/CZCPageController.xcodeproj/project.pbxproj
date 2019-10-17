@@ -24,6 +24,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C6F63C7523584BE60058AB04 /* GGJShopCouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F63C6E23584BE50058AB04 /* GGJShopCouponCell.m */; };
+		C6F63C7623584BE60058AB04 /* GGJShopNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F63C6F23584BE50058AB04 /* GGJShopNameCell.m */; };
+		C6F63C7723584BE60058AB04 /* FirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F63C7223584BE60058AB04 /* FirstController.m */; };
+		C6F63C7823584BE60058AB04 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F63C7323584BE60058AB04 /* SecondController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 /* Begin PBXFileReference section */
 		00EAAEEE924C10A0281E46A1 /* Pods_CZCPageController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CZCPageController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D840641A2F10F24046B8B1C /* Pods-CZCPageController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZCPageController_Example.release.xcconfig"; path = "Target Support Files/Pods-CZCPageController_Example/Pods-CZCPageController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		40C55BA0D590E8EF2B6DDF2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		40C55BA0D590E8EF2B6DDF2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		46679C6BD3C0BA95A0DF69F8 /* Pods-CZCPageController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZCPageController_Example.debug.xcconfig"; path = "Target Support Files/Pods-CZCPageController_Example/Pods-CZCPageController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CZCPageController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZCPageController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,11 +65,19 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		724CBD5326EEBC1C098995BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		724CBD5326EEBC1C098995BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7D466291FC15BBD1057AA4A1 /* Pods_CZCPageController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CZCPageController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E0D621A2F7CC0F4FA40B1B9 /* CZCPageController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CZCPageController.podspec; path = ../CZCPageController.podspec; sourceTree = "<group>"; };
+		7E0D621A2F7CC0F4FA40B1B9 /* CZCPageController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CZCPageController.podspec; path = ../CZCPageController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A017B48E84EE0BDA9615D41E /* Pods-CZCPageController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZCPageController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CZCPageController_Tests/Pods-CZCPageController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6F63C6C23584BE50058AB04 /* GGJShopNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGJShopNameCell.h; sourceTree = "<group>"; };
+		C6F63C6D23584BE50058AB04 /* GGJShopCouponCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGJShopCouponCell.h; sourceTree = "<group>"; };
+		C6F63C6E23584BE50058AB04 /* GGJShopCouponCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGJShopCouponCell.m; sourceTree = "<group>"; };
+		C6F63C6F23584BE50058AB04 /* GGJShopNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGJShopNameCell.m; sourceTree = "<group>"; };
+		C6F63C7123584BE60058AB04 /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		C6F63C7223584BE60058AB04 /* FirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstController.m; sourceTree = "<group>"; };
+		C6F63C7323584BE60058AB04 /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
+		C6F63C7423584BE60058AB04 /* FirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstController.h; sourceTree = "<group>"; };
 		E0768640DC780787E8003DC9 /* Pods-CZCPageController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZCPageController_Tests.release.xcconfig"; path = "Target Support Files/Pods-CZCPageController_Tests/Pods-CZCPageController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +144,8 @@
 		6003F593195388D20070C39A /* Example for CZCPageController */ = {
 			isa = PBXGroup;
 			children = (
+				C6F63C6B23584BE50058AB04 /* Cells */,
+				C6F63C7023584BE60058AB04 /* SubControllers */,
 				6003F59C195388D20070C39A /* CZCAppDelegate.h */,
 				6003F59D195388D20070C39A /* CZCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +207,29 @@
 				A017B48E84EE0BDA9615D41E /* Pods-CZCPageController_Tests.debug.xcconfig */,
 				E0768640DC780787E8003DC9 /* Pods-CZCPageController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6F63C6B23584BE50058AB04 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C6F63C6C23584BE50058AB04 /* GGJShopNameCell.h */,
+				C6F63C6D23584BE50058AB04 /* GGJShopCouponCell.h */,
+				C6F63C6E23584BE50058AB04 /* GGJShopCouponCell.m */,
+				C6F63C6F23584BE50058AB04 /* GGJShopNameCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C6F63C7023584BE60058AB04 /* SubControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6F63C7123584BE60058AB04 /* SecondController.h */,
+				C6F63C7223584BE60058AB04 /* FirstController.m */,
+				C6F63C7323584BE60058AB04 /* SecondController.m */,
+				C6F63C7423584BE60058AB04 /* FirstController.h */,
+			);
+			path = SubControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +293,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -368,8 +404,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F63C7523584BE60058AB04 /* GGJShopCouponCell.m in Sources */,
 				6003F59E195388D20070C39A /* CZCAppDelegate.m in Sources */,
+				C6F63C7823584BE60058AB04 /* SecondController.m in Sources */,
+				C6F63C7723584BE60058AB04 /* FirstController.m in Sources */,
 				6003F5A7195388D20070C39A /* CZCViewController.m in Sources */,
+				C6F63C7623584BE60058AB04 /* GGJShopNameCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

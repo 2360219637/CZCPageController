@@ -6,8 +6,9 @@
 //  Copyright (c) 2019 2360219637@qq.com. All rights reserved.
 //
 
-@import UIKit;
+#import "CZCPageController.h"
 
-@interface CZCViewController : UIViewController
+@interface CZCViewController : CZCPageController
 
 @end
+

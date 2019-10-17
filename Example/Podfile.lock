@@ -1,0 +1,24 @@
+PODS:
+  - CZCPageController (1.0.0):
+    - CZCPageController/CZCPageController (= 1.0.0)
+    - CZCPageController/CZCProtocols (= 1.0.0)
+    - CZCPageController/CZCSegBar (= 1.0.0)
+    - CZCPageController/Views (= 1.0.0)
+  - CZCPageController/CZCPageController (1.0.0)
+  - CZCPageController/CZCProtocols (1.0.0)
+  - CZCPageController/CZCSegBar (1.0.0)
+  - CZCPageController/Views (1.0.0)
+
+DEPENDENCIES:
+  - CZCPageController (from `../`)
+
+EXTERNAL SOURCES:
+  CZCPageController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CZCPageController: 5c4d3a0a7337a41b4235893f88e81e21bf3d2553
+
+PODFILE CHECKSUM: 6937fdaa0aed2cf21937ee1c2e3e212ce97d8d6d
+
+COCOAPODS: 1.6.1
