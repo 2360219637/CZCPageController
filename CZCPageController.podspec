@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'CZCPageController'
-s.version          = '1.0.1'
+s.version          = '1.0.2'
 s.summary          = '多页面切换工具'
 s.homepage         = 'https://github.com/2360219637/CZCPageController'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
