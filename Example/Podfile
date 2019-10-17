@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CZCPageController_Example' do
+  pod 'CZCPageController', :path => '../'
+
+  target 'CZCPageController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
