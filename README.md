@@ -5,11 +5,12 @@
 ![](https://upload-images.jianshu.io/upload_images/1964261-0dd8c26dd552755e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 >功能支持：
-1、多种类型cell共存（如上，支持多种类型cell的布局,更灵活）
-2、支持MJRefresh的整体下拉刷新
-3、接入更简单
-
-[github地址 ](https://github.com/2360219637/CZCPageController)
+>
+>1、多种类型cell共存（如上，支持多种类型cell的布局,更灵活）
+>
+>2、支持MJRefresh的整体下拉刷新
+>
+>3、接入更简单
 
 #### 使用：
 ##### 1、通过pods导入
@@ -63,5 +64,7 @@ pod install
 
 ##### 4、最后
 >注意：
-1、考虑到segmentBar中title、子控制器数量等数据有服务端返回才能确定，因此，服务端返回数据之后，需要执行`[self updateData]（父类方法）`
-2、结构图中的UITableViewCell或者UICollectionViewCell又要嵌套UICollectionView、UIScrollView的话，要使用这两种类型：`CZCCustomCollectionView、CZCCuscomScrollView`， （如demo中的GGJShopCouponCell）
+>
+>1、考虑到segmentBar中title、子控制器数量等数据有服务端返回才能确定，因此，服务端返回数据之后，需要执行`[self updateData]（父类方法）`
+>
+>2、结构图中的UITableViewCell或者UICollectionViewCell又要嵌套UICollectionView、UIScrollView的话，要使用这两种类型：`CZCCustomCollectionView、CZCCuscomScrollView`， （如demo中的GGJShopCouponCell）
