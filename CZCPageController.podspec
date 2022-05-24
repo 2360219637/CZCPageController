@@ -26,18 +26,4 @@ s.subspec 'Views' do |ss|
     ss.dependency 'CZCPageController/CZCProtocols'
 end
 
-script1 = <<-CMD
-  podsPath=$(pwd)
-  echo $podsPath >> /Users/bytedance/Desktop/test.txt
-CMD
-
-script2 = <<-CMD
-  echo "Hello world" >> /Users/bytedance/Desktop/test.txt
-CMD
-
-s.script_phase = [
-{ :name => 'pod compile before1', :script => script1, :shell_path =>'/bin/sh', :execution_position => :before_compile},
-{ :name => 'pod compile before2', :script => script2, :shell_path =>'/bin/sh', :execution_position => :before_compile}
-]
-
 end
